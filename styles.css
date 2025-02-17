@@ -21,27 +21,17 @@
   }
   
   h1 {
-    font-family: "Playfair Display", serif;
     font-size: 96px;
-    font-weight: 700;
-    text-align: center;
   }
   
   p {
-    font-family:" poppins,sans-serif";
-    font-weight: 700px;
-
+    font-weight: normal;
   }
   
   .hero {
     background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
   }
   
   .hero p {
@@ -66,3 +56,4 @@
     line-height: 27px;
     padding: 15px 30px;
   }
+  

@@ -115,3 +115,72 @@ p {
     text-align: center;
   }
 }
+.footer-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+.work-inquiry {
+  background: #F9F7FE;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inquiry-content h3 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.inquiry-content p {
+  margin: 10px 0;
+  opacity: 0.7;
+}
+
+.contact-link {
+  background: #6C63FF;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: #6C63FF;
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: #6C63FF;
+}
+
+.open-source {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .work-inquiry {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .inquiry-button {
+    margin-top: 20px;
+  }
+}

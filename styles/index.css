@@ -8,6 +8,25 @@
 body {
   font-family: var(--default-font-family);
 }
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  color: #272142 !important;
+}
+
+.nav-link.active {
+  color: var(--branding-color) !important;
+}
 
 h1,
 h2,
